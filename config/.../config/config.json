@@ -1,0 +1,58 @@
+{
+    "colors": {
+        "style": "catppuccin-mocha"
+    },
+    "wm": {
+        "wm": "openbox",
+        "style": "rounded"
+    },
+    "menu": {
+        "dashboard": {
+            "style": "menu",
+            "widgets": {
+                "top-left": "apps",
+                "top-right": "none",
+                "bottom-left": "none",
+                "bottom-right": "none"
+            }
+        },
+        "notifications": {
+            "style": "menu",
+            "info": {
+                "style": "footer",
+                "widgets": ["time", "notification_clear"]
+            }
+        },
+        "lockscreen": {
+            "style": "fullscreen",
+            "show_inputs": false
+        },
+        "polybar": {
+            "style": "rounded",
+            "widgets": {
+                "left": [],
+                "center": ["time", "tasks"],
+                "right": ["music","tray", "notifications"]
+            }
+        }
+    },
+    "sh": {
+        "shell": "zsh",
+        "style": "rounded"
+    },
+    "boot": {
+        "grub": {
+            "style": "skip",
+            "timeout": "0",
+            "background": ""
+        },
+        "sddm": {
+            "style": "sugar",
+            "background": ""
+        },
+        "plymouth": {
+            "style": "circles",
+            "show_logo": true
+        }
+    }
+}
